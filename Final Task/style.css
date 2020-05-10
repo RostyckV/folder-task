@@ -1,0 +1,829 @@
+.container {
+    position: relative;
+    width: 100%;
+    width: 1440px;
+    margin: auto;
+    display: block;
+}
+header {
+    width: 1440px;
+    height: 700px;
+    background: url(./img/iStock_40603868_XXXLARGE.jpg);
+}
+@font-face {
+    src: url(./fonts/Montserrat-Regular.ttf);
+    font-family: 'Montserrat-Regular';
+}
+@font-face {
+    src: url(./fonts/Roboto-Thin.ttf);
+    font-family: 'Roboto-Thin';
+}
+.text_white_montserrat_header {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat-Regular', sans-serif ;
+}
+.text_white_montserrat {
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat-Regular', sans-serif ;
+}
+.text_white_roboto {
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto-Thin', sans-serif ;
+}
+.dreamshare {
+    padding-left : 248px;
+    padding-top: 46px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+}
+.log_in {
+    right: 400px;
+    padding-top: 50px;
+    font-size: 14px;
+}
+.sign_up {
+    width: 90px;
+    height: 36px;
+    right: 291px;
+    top: 40px;
+    border: 2px solid white;
+    box-sizing: border-box;
+    border-radius: 40px;
+    font-size: 14px;
+    line-height: 32px;
+    text-align: center;
+}
+.holiday {
+    width: 470px;
+    height: 126px;
+    padding-left: 485px;
+    padding-top: 224px;
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 63px;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(245, 245, 245);
+}
+.find_perfect {
+    position: absolute;
+    width: 396px;
+    padding-left: 522px;
+    padding-top: 378px;
+    font-size: 24px;
+}
+.find_partner {
+    width: 225px;
+    height: 40px;
+    left: 608px;
+    top: 436px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.btn {
+    border-radius: 40px;
+    background: rgb(255, 78, 80);
+    border: none;
+    outline: none;
+}
+.dreamshare_works {
+    width: 940px;
+    height: 461px;
+    margin: auto;
+    margin-top: 95px;
+}
+.text_montserrat {
+    font-family: 'Montserrat-Regular', sans-serif ;
+}
+.text_roboto {
+    font-family: 'Roboto-Thin', sans-serif ;
+}
+.dreamshare_works__head_works {
+    width: 940px;
+    height: 61px;
+    text-align: center;
+}
+.text_head_section {
+    font-weight: bold;
+    font-size: 26px;
+}
+.dreamshare_works__body_works {
+    width: 940px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+.works {
+    width: 300px;
+    height: 400px;
+}
+.step_one {
+    background: url(./img/79387164_158095708.jpg);
+}
+.step_two {
+    background: url(./img/3e12b85d6183a000068c66383b3e4369.jpg);
+}
+.step_three {
+    background: url(./img/z20238535Q.jpg);
+}
+.button {
+    width: 70px;
+    height: 20px;
+    margin-left: 25px;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+.btn_step_one {
+    margin-top: 219px;
+}
+.sed_leo {
+    width: 250px;
+    margin-left: 25px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 26px;
+}
+.step_article {
+    width: 250px;
+    height: 57px;
+    margin-left: 25px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+.btn_step_two {
+    margin-top: 250px;
+}
+.morbi {
+    font-weight: bold;
+    font-size: 24px;
+    margin: 14px 0 0 25px;
+}
+.step_two_article {
+    margin-top: 12px;
+}
+.btn_step_three {
+    margin-top: 219px;
+}
+.partner {
+    width: 941px;
+    height: 361px;
+    margin: auto;
+    margin-top: 95px;
+}
+.partner__head {
+    width: 941px;
+    height: 61px;
+    text-align: center;
+}
+.partner__body {
+    width: 941px;
+    height: 205px;
+    display: flex;
+    justify-content: space-between;
+}
+.partner__body__name {
+    width: 221px;
+    height: 205px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    position: relative;
+}
+.height_div {
+    height: 224px;
+}
+.foto_partner {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.name_partner {
+    font-weight: bold;
+    font-size: 14px;
+}
+.biography {
+    font-size: 14px;
+    line-height: 14px;
+}
+.biography__pierce {
+    width: 211px;
+}
+.icon_music_plane {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    left: 131px;
+    top: 80px;
+}
+.icon_brushes_foto {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: rgb(25, 212, 202);
+    position: absolute;
+    border: 4px solid rgb(255, 255, 255);
+    left: 131px;
+    top: 80px;
+}
+.see_other_partners {
+    width: 180px;
+    height: 40px;
+    border: 2px solid rgb(255, 78, 80);
+    box-sizing: border-box;
+    border-radius: 40px;
+    margin: auto;
+    margin-top: 55px;
+    text-align: center;
+}
+.text_see_other_partners {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 36px;
+    color: rgb(255, 78, 80);
+}
+.holiday_activity {
+    width: 940px;
+    height: 1031px;
+    margin: auto;
+    margin-top: 95px;
+}
+.holiday_activity__head {
+    width: 940px;
+    height: 61px;
+    text-align: center;
+}
+.holiday_activity__body {
+    width: 940px;
+    height: 970px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.ideas {
+    width: 300px;
+    height: 310px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.ideas_wide {
+    width: 620px;
+    height: 310px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sport {
+    background: url(./img/4-6-700x463.jpg);
+}
+.health {
+    background: url(./img/image-asset.jpg);
+}
+.extreme {
+    background: url(./img/d9d533bbf5a53b44ba.jpg);
+}
+.games {
+    background: url(./img/82278310_1242805932583_n.jpg);
+}
+.culture {
+    background: url(./img/2017-04-14_11.29.58.jpg);
+}
+.relax {
+    background: url(./img/1142049666388468.jpg);
+}
+.trevelling {
+    background: url(./img/1470249444_ift4gyctdn1eqkc.jpg);
+}
+.text_activity {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+}
+.text_width {
+    width: 187px;
+}
+.interests {
+    width: 482px;
+    height: 158px;
+    margin: auto;
+    margin-top: 95px;
+}
+.crate_activity {
+    width: 482px;
+    height: 118px;
+    text-align: center;
+}
+.text_interests {
+    margin-top: 43px;
+    font-size: 18px;
+}
+.search_partners {
+    width: 482px;
+    height: 40px;
+    display: flex;
+}
+.input_interests {
+    width: 299px;
+    height: 40px;
+    border: 1px solid rgb(212, 212, 212);
+    box-sizing: border-box;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.073313);
+    border-radius: 3px;
+    font-size: 14px;
+    padding-left: 14px;
+}
+.button_partners {
+    width: 172px;
+    height: 40px;
+    margin-left: 7px;
+    font-weight: bold;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+footer {
+    width: 1440px;
+    height: 224px;
+    margin-top: 100px;
+}
+.hr {
+    width: 1440px;
+    height: 38px;
+}
+hr {
+    width: 1440px;
+    height: 2px;
+    background: rgb(255, 78, 80);
+    margin: 0;
+    border: none;
+}
+.footer {
+    width: 1440px;
+    height: 186px;
+    display: flex;
+}
+.footer_dreamshare {
+    width: 490px;
+    height: 186px;
+}
+.text_footer_dreamshare {
+    margin-left: 249px;
+    font-size: 16px;
+    color: rgb(255, 78, 80);
+    text-transform: uppercase;
+}
+.company {
+    width: 239px;
+    height: 186px;
+}
+.company__head {
+    width: 239px;
+    height: 34px;
+}
+.text_company_partners {
+    font-weight: bold;
+    font-size: 14px; 
+}
+.about_company {
+    width: 239px;
+    height: 152px;
+    display: flex;
+    flex-direction: column;
+}
+.text_about_company {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 26px;
+}
+.footer_partners {
+    width: 351px;
+    height: 186px;
+}
+.designed {
+    width: 360px;
+    height: 186px;
+}
+.text_designed {
+    margin-left: 30px;
+    margin-bottom: 7px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    color: rgb(204, 204, 204);
+}
+.designed__areto {
+    width: 360px;
+    height: 165px;
+}
+.logo {
+    width: 110px;
+    height: 24px; 
+}
+@media (max-width: 768px) {
+    .container {
+        width: 768px;
+    }
+    header {
+        width: 768px;
+        background: url(./img/iStock_40603868_XXXLARGE_768.jpg);
+    }
+    .dreamshare {
+        padding-left : 48px;
+    }
+    .log_in {
+        right: 159px;
+    }
+    .sign_up {
+        right: 50px;
+    }
+    .holiday {
+        padding-left: 149px;
+    }
+    .find_perfect {
+        padding-left: 186px;
+    }
+    .find_partner {
+        left: 272px;
+    }
+    .dreamshare_works {
+        width: 748px;
+    }
+    .dreamshare_works__head_works {
+        width: 748px;
+    }
+    .text_head_section {
+        font-size: 22px;
+    }
+    .dreamshare_works__body_works {
+        width: 748px;
+    }
+    .works {
+        width: 236px;
+    }
+    .button {
+        margin-left: 20px;
+    }
+    .btn_step_one {
+        margin-top: 205px;
+    }
+    .sed_leo {
+        width: 196px;
+        margin-left: 20px;
+        margin-top: 44px;
+        line-height: 14px;
+    }
+    .step_article {
+        width: 196px;
+        height: 76px;
+        margin-left: 20px;
+        margin-top: 30px;
+        line-height: 14px;
+    }
+    .btn_step_two {
+        margin-top: 255px;
+    }
+    .morbi {
+        width: 186px;
+        height: 29px;
+        line-height: 14px;
+        margin: 14px 0 0 20px;
+    }
+    .step_two_article {
+        margin-top: 20px;
+    }
+    .btn_step_three {
+        margin-top: 205px;
+    }
+    .partner {
+        width: 492px;
+        height: 605px;
+    }
+    .partner__head {
+        width: 492px;
+    }
+    .partner__body {
+        width: 492px;
+        height: 464px;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .partner__body__name {
+        width: 236px;
+        height: 205px;
+    }
+    .height_div {
+        height: 224px;
+    }
+    .height_tablet {
+        height: 205px;
+    }
+    .biography__pierce {
+        width: 236px;
+    }
+    .icon_music_plane {
+        left: 140px;
+        top: 80px;
+    }
+    .icon_brushes_foto {
+        left: 140px;
+        top: 80px;
+    }
+    .see_other_partners {
+        margin-top: 40px;
+    }
+    .holiday_activity {
+        width: 748px;
+    }
+    .holiday_activity__head {
+        width: 748px;
+    }
+    .holiday_activity__body {
+        width: 748px;
+    }
+    .ideas {
+        width: 236px;
+    }
+    .ideas_wide {
+        width: 492px;
+    }
+    .text_tablet {
+        width: 180px;
+    }
+    footer {
+        width: 768px;
+    }
+    .hr {
+        width: 768px;
+    }
+    hr {
+        width: 768px;
+    }
+    .footer {
+        width: 768px;
+    }
+    .footer_dreamshare {
+        width: 266px;
+    }
+    .text_footer_dreamshare {
+        margin-left: 39px;
+    }
+    .company {
+        width: 170px;
+    }
+    .about_company {
+        width: 170px;
+    }
+    .footer_partners {
+        width: 182px;
+    }
+    .designed {
+        width: 150px;
+    }
+    .designed__areto {
+        width: 150px;
+    }
+}
+@media (max-width: 320px) {
+    .container {
+        width: 320px;
+    }
+    header {
+        width: 100%;
+        height: 540px;
+        background: url(./img/iStock_40603868_XXXLARGE_320.jpg);
+    }
+    .dreamshare {
+        padding-left: 86px;
+        padding-top: 153px;
+    }
+    .log_in {
+        left: 74px;
+        padding-top: 30px;
+        font-size: 14px;
+        color: rgb(245, 245, 245);
+    }
+    .sign_up {
+        left: 137px;
+        top: 20px;
+        color: rgb(245, 245, 245);
+    }
+    .holiday {
+        width: 272px;
+        height: 74px;
+        padding-left: 24px;
+        padding-top: 204px;
+        font-size: 30px;
+        line-height: 37px;
+    }
+    .find_perfect {
+        width: 260px;
+        height: 49px;
+        padding-left: 20px;
+        padding-top: 283px;
+        font-size: 18px;
+        line-height: 24px;
+        text-align: center;
+    }
+    .find_partner {
+        width: 280px;
+        height: 40px;
+        left: 21px;
+        top: 347px;
+    }
+    .dreamshare_works {
+        width: 300px;
+        height: 781px;
+        margin-top: 35px;
+    }
+    .dreamshare_works__head_works {
+        width: 300px;
+        height: 41px;
+    }
+    .text_head_section {
+        font-size: 22px;
+    }
+    .dreamshare_works__body_works {
+        width: 300px;
+        height: 740px;
+        flex-direction: column;
+    }
+    .works {
+        width: 300px;
+        height: 240px;
+    }
+    .button {
+        margin-left: 20px;
+    }
+    .btn_step_one {
+        margin-top: 64px;
+    }
+    .sed_leo {
+        margin-left: 20px;
+        margin-top: 44px;
+        line-height: 14px;
+    }
+    .step_article {
+        width: 250px;
+        height: 57px;
+        margin-left: 20px;
+        margin-top: 30px;
+        line-height: 14px;
+    }
+    .btn_step_two {
+        margin-top: 95px;
+    }
+    .morbi {
+        width: 250px;
+        height: 15px;
+        margin-top: 28px;
+    }
+    .btn_step_three {
+        margin-top: 64px;
+    }
+    .partner {
+        width: 300px;
+        height: 1031px;
+        margin-top: 36px;
+    }
+    .partner__head {
+        width: 300px;
+        height: 68px;
+    }
+    .partner__body {
+        width: 300px;
+        height: 887px;
+        align-items: center;
+    }
+    .see_other_partners {
+        margin-top: 36px;
+    }
+    .holiday_activity {
+        width: 320px;
+        height: 987px;
+        margin-top: 35px;
+    }
+    .holiday_activity__head {
+        width: 220px;
+        height: 87px;
+        margin: auto;
+    }
+    .holiday_activity__body {
+        width: 320px;
+        height: 900px;
+    }
+    .ideas {
+        width: 300px;
+        height: 120px;
+        margin: auto;
+    }
+    .ideas_wide {
+        width: 300px;
+        height: 120px;
+        margin: auto;
+    }
+    .interests {
+        width: 280px;
+        height: 192px;
+        margin-top: 35px;
+    }
+    .crate_activity {
+        width: 280px;
+        height: 86px;
+    }
+    .text_interests {
+        margin-top: 9px;
+    }
+    .search_partners {
+        width: 280px;
+        height: 90px;
+    }
+    .input_interests {
+        width: 280px;
+    }
+    .button_partners {
+        width: 280px;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    footer {
+        width: 320px;
+        height: 204px;
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+    }
+    .hr {
+        width: 320px;
+    }
+    hr {
+        width: 320px;
+    }
+    .footer {
+        width: 320px;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer_dreamshare {
+        width: 320px;
+        height: 33px;
+        text-align: center;
+    }
+    .text_footer_dreamshare {
+        margin-left: 0;
+    }
+    .company {
+        width: 320px;
+        height: 72px;
+    }
+    .company__head {
+        width: 320px;
+        height: 17px;
+        text-align: center;
+    }
+    .about_company {
+        width: 220px;
+        height: 52px;
+        line-height: 26px;
+        margin: auto;
+        display: flex;
+        justify-content: space-evenly;
+        flex-flow: row wrap;
+    }
+    .text_about_company {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .footer_partners {
+        width: 320px;
+        height: 21px;
+        text-align: center;
+    }
+    .designed {
+        width: 320px;
+        height: 43px;
+        text-align: center;
+    }
+    .text_designed {
+        margin-left: 0;
+        text-align: center;
+    }
+    .designed__areto {
+        width: 110px;
+        height: 24px;
+        margin: auto;
+    }
+}
